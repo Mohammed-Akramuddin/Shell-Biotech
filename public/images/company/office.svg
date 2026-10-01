@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" fill="none">
+  <rect width="800" height="600" fill="#0B1F33"/>
+  <rect x="20" y="20" width="760" height="560" stroke="#16324F" stroke-width="2"/>
+  
+  <!-- Office architectural drawing / graphic -->
+  <g transform="translate(100, 100)" stroke="#496B5A" stroke-width="1.5">
+    <rect x="0" y="40" width="600" height="280" fill="#0E2740"/>
+    <line x1="0" y1="120" x2="600" y2="120"/>
+    <line x1="0" y1="200" x2="600" y2="200"/>
+    <line x1="150" y1="40" x2="150" y2="320"/>
+    <line x1="300" y1="40" x2="300" y2="320"/>
+    <line x1="450" y1="40" x2="450" y2="320"/>
+  </g>
+
+  <g transform="translate(100, 440)">
+    <text font-family="'Inter', sans-serif" font-size="10" font-weight="700" letter-spacing="0.14em" fill="#8E9B90">REGISTERED ADMINISTRATIVE OFFICE</text>
+    <text font-family="'Manrope', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" y="28">Hyderabad, Telangana – 501505</text>
+    <text font-family="'Inter', sans-serif" font-size="12" fill="#B8C4CC" y="52">180/5/P, Road No. 03, Ground Floor, Kuntloor, Sunrise Colony</text>
+  </g>
+</svg>

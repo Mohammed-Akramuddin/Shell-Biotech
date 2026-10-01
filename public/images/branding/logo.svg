@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 60" width="320" height="60" fill="none">
+  <!-- Minimalist pharmaceutical emblem -->
+  <rect x="2" y="10" width="40" height="40" rx="2" stroke="#0B1F33" stroke-width="2.5" fill="#FAFAF7"/>
+  <path d="M12 30H32" stroke="#496B5A" stroke-width="3" stroke-linecap="square"/>
+  <path d="M22 20V40" stroke="#0B1F33" stroke-width="3" stroke-linecap="square"/>
+  <circle cx="22" cy="30" r="3" fill="#496B5A"/>
+
+  <!-- Clean Typographic Logo -->
+  <text x="56" y="33" font-family="'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" letter-spacing="0.12em" fill="#0B1F33">SHELL BIOTECH</text>
+  <text x="57" y="47" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="600" letter-spacing="0.22em" fill="#496B5A">PHARMACEUTICAL SOURCING &amp; DISTRIBUTION</text>
+</svg>

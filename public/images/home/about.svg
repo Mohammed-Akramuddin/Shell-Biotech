@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" width="1000" height="800" fill="none">
+  <defs>
+    <linearGradient id="about-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2F3F1"/>
+      <stop offset="100%" stop-color="#E2E6E3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="800" fill="url(#about-bg)"/>
+  <rect x="40" y="40" width="920" height="720" stroke="#D9DDDA" stroke-width="1.5" fill="#FFFFFF"/>
+  
+  <!-- Architectural framing -->
+  <rect x="80" y="80" width="840" height="480" fill="#0B1F33" opacity="0.04"/>
+  
+  <!-- Healthcare supply chain diagram / visual -->
+  <g transform="translate(140, 160)">
+    <!-- Node 1: Sourcing -->
+    <rect x="0" y="0" width="200" height="140" rx="2" fill="#FFFFFF" stroke="#0B1F33" stroke-width="2"/>
+    <text x="24" y="40" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#496B5A" letter-spacing="0.08em">PHASE 01</text>
+    <text x="24" y="70" font-family="'Manrope', sans-serif" font-size="16" font-weight="700" fill="#0B1F33">Manufacturing</text>
+    <text x="24" y="92" font-family="'Manrope', sans-serif" font-size="16" font-weight="700" fill="#0B1F33">Partners</text>
+    <text x="24" y="118" font-family="'Inter', sans-serif" font-size="10" fill="#7E878C">Licensed Out-of-State Units</text>
+
+    <!-- Connector -->
+    <line x1="200" y1="70" x2="260" y2="70" stroke="#496B5A" stroke-width="2" stroke-dasharray="4 4"/>
+
+    <!-- Node 2: Shell Biotech -->
+    <rect x="260" y="-10" width="220" height="160" rx="2" fill="#0B1F33"/>
+    <text x="284" y="35" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#8E9B90" letter-spacing="0.08em">PHASE 02</text>
+    <text x="284" y="72" font-family="'Manrope', sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">SHELL BIOTECH</text>
+    <text x="284" y="98" font-family="'Inter', sans-serif" font-size="11" fill="#B8C4CC">Sourcing &amp; Quality QA</text>
+    <text x="284" y="118" font-family="'Inter', sans-serif" font-size="11" fill="#B8C4CC">Marketing &amp; Allocation</text>
+
+    <!-- Connector -->
+    <line x1="480" y1="70" x2="540" y2="70" stroke="#496B5A" stroke-width="2" stroke-dasharray="4 4"/>
+
+    <!-- Node 3: Network -->
+    <rect x="540" y="0" width="200" height="140" rx="2" fill="#FFFFFF" stroke="#0B1F33" stroke-width="2"/>
+    <text x="564" y="40" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#496B5A" letter-spacing="0.08em">PHASE 03</text>
+    <text x="564" y="70" font-family="'Manrope', sans-serif" font-size="16" font-weight="700" fill="#0B1F33">Hospitals &amp;</text>
+    <text x="564" y="92" font-family="'Manrope', sans-serif" font-size="16" font-weight="700" fill="#0B1F33">Institutions</text>
+    <text x="564" y="118" font-family="'Inter', sans-serif" font-size="10" fill="#7E878C">Telangana Supply Network</text>
+  </g>
+
+  <!-- Editorial caption at bottom -->
+  <g transform="translate(80, 620)">
+    <text font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#496B5A" letter-spacing="0.12em">OPERATING PARADIGM</text>
+    <text font-family="'Manrope', sans-serif" font-size="18" font-weight="700" fill="#0B1F33" y="30">
+      Structured pharmaceutical distribution bridging manufacturing to point of care
+    </text>
+    <text font-family="'Inter', sans-serif" font-size="13" fill="#596166" y="58">
+      Shell Biotech focuses on commercialization, compliance verification, and regional hospital network supply.
+    </text>
+  </g>
+</svg>
